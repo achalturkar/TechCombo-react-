@@ -144,6 +144,7 @@
 }
 
 .service-logo-outer{
+    padding-top: 15px;
     display: flex;
     align-items: center;
     justify-content: center;

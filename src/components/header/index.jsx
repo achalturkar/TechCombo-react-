@@ -14,7 +14,7 @@ const Header = () => {
         <nav className="navbar-main" id="navbar">
             <div className="nav-logo">
                 <Link to="/">
-                    <img src="src/assets/logo.png" width="110px" to="/" />
+                    <img src="/images/logo.png" width="110px" to="/" />
                 </Link>
             </div>
 
