@@ -69,26 +69,6 @@ align-items: center;
     transform: scale(1.2);
   }
 
-/* .social-icon a {
-    width: 40px;
-    height: 40px;
-    background-color: #ddd;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 1px;
-    font-size: 18px;
-    color: #000;
-    transition: background-color 0.3s;
-} */
-
-.social-icon a:hover {
-    /* background-color: #999; */
-    color: white;
-}
-
-
 .cont-icon {
     width: 50px;  
     height: 50px;  
@@ -107,4 +87,9 @@ align-items: center;
 .form-box{
     padding: 50px;
     box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+.form-clr{
+    background-color: whitesmoke;
 }

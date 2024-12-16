@@ -94,7 +94,7 @@ const ContactForm = () =>{
                 </div>
 
 
-                <div className="form-box mb-5" data-aos="fade-up">
+                <div className="form-box mb-5 form-clr" data-aos="fade-up">
                     <form className=" container ">
                         <div className="form-row">
                             <div className="col-md-6 mb-3">

@@ -57,6 +57,21 @@
     width: 100%;
 }
 
+.hero-c{
+    position: relative;
+}
+
+.heroBox{
+    height:340px;
+    width: 500px;
+    background: linear-gradient(135deg, #0077b5, #15B392);
+    position: absolute;
+    top:-10px;
+    left:20px;
+    border-radius: 20px;
+
+}
+
 .circle {
     border-radius: 50%;
     color: black;
@@ -153,12 +168,29 @@
     .head {
         font-size: 36px;
         margin-bottom: 10px; 
+        line-height: 1.1; 
+
 
         
     }
+
     
     .sub-head {
         font-size: 16px;
+        line-height: 1.4; 
+
+    }
+
+    .section-head {
+        margin: 30px auto;
+       
+    }
+
+    .heroBox{
+        height:230px;
+        width: 355px;
+       
+    
     }
 
 

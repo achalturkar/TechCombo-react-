@@ -49,19 +49,23 @@ const Home = () => {
                         </div>
                     </div>
 
-                    <div className=" right pd-1 ">
+                    <div className=" right pd-1 hero-c">
+
+                        <div className="heroBox">
+
+                        </div>
                         <div style={{maxWidth: 500}} id="carouselExampleControls" className="carousel slide "
                             data-ride="carousel">
 
                             <div className="carousel-inner">
                                 <div className="carousel-item active my-img">
-                                    <img src="/images/contract.jpg" className="d-block w-100" alt="..." />
+                                    <img src="/images/ithero2.jpg" className="d-block w-100" alt="..." />
                                 </div>
                                 <div className="carousel-item my-img">
-                                    <img src="/images/himg4.jpg" className="d-block w-100" alt="..." />
+                                    <img src="/images/ithero.jpg" className="d-block w-100" alt="..." />
                                 </div>
                                 <div className="carousel-item my-img">
-                                    <img src="/images/himg5.jpg" className="d-block w-100" alt="..." />
+                                    <img src="/images/ithero1.jpg" className="d-block w-100" alt="..." />
                                 </div>
                             </div>
 
