@@ -189,7 +189,8 @@
     .heroBox{
         height:230px;
         width: 355px;
-       
+        top:-5px;
+        left:10px;
     
     }
 
