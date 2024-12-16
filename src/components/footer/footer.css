@@ -1,0 +1,178 @@
+.footer {
+    position: relative;
+    /* background-color: #0d0145; */
+    background-image:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0,0,0,0.8)), url('/images/world.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 40px 20px;
+    font-family: 'Poppins', Arial, sans-serif;
+}
+
+
+h3{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+/* Footer Content Wrapper */
+.footer-box {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Logo and Contact Section */
+.foot-logo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.foot-logo img {
+    max-width: 100%;
+    height: auto;
+}
+
+.contact-foot p {
+    margin: 5px 0;
+    line-height: 1.6;
+}
+
+/* Quick Links */
+.nav-foot h3 {
+    margin-bottom: 10px;
+}
+
+.nav-ul-list-footer a {
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+}
+
+.nav-ul-list-footer li {
+    margin-bottom: 10px;
+    list-style: none;
+
+}
+
+footer a {
+    text-decoration: none;
+    color: #fbf6f6;
+    font-size: 16px;
+    transition: color 0.3s ease;
+
+
+}
+
+footer a:hover {
+    color: #ff6347;
+}
+
+/* Services Section */
+.service ul {
+    list-style: none;
+    padding: 0;
+}
+
+.service ul li {
+    margin-bottom: 8px;
+}
+
+.service ul a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.service ul a:hover {
+    color: #ff6347;
+}
+
+/* Social Icons */
+.social-icon {
+    display: flex;
+    gap: 15px;
+}
+
+.social-icon a {
+    color: #0077b5;
+    font-size: 24px;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.social-icon a:hover {
+    color: #3180ef;
+    transform: scale(1.1);
+}
+
+/* Horizontal Line */
+footer hr {
+    border: 1px solid #444;
+    margin: 30px 0;
+}
+
+/* Copyright Section */
+.copy-right {
+    text-align: center;
+    font-size: 14px;
+    color: #bbb;
+}
+
+/* Responsive Design */
+@media (max-width: 894px) {
+    .footer-box {
+        flex-direction: column;
+        align-items: left;
+    }
+
+    .logo-contact,
+    .nav-foot,
+    .service-job,
+    .follow-site {
+        margin-bottom: 20px;
+    }
+
+    .social-icon {
+        justify-content:  left;
+    }
+}
+
+
+
+/* Horizontal Line */
+footer hr {
+    border: 1px solid #444;
+    margin: 30px 0;
+}
+
+/* Copyright Section */
+.copy-right {
+    text-align: center;
+    font-size: 14px;
+    color: #bbb;
+}
+
+/* Responsive Design */
+@media (max-width: 894px) {
+    .footer-box {
+        flex-direction: column;
+        /* align-items: center; */
+    }
+
+    .foot-logo {
+        margin-bottom: 10px;
+    }
+
+    .logo-contact,
+    .nav-foot,
+    .service-job,
+    .follow-site {
+        margin-bottom: 20px;
+        text-align:left;
+    }
+
+}

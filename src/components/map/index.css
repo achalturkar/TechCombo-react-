@@ -1,0 +1,9 @@
+.map-container{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.map-container iframe{
+    color: #536493;
+}
