@@ -2,6 +2,8 @@
 import "./index.css";
 import Header from "../header";
 import Footer from "../footer/footer.jsx";
+import Square from "../square"
+
 
 const About = () => {
 
@@ -98,181 +100,53 @@ const About = () => {
                 </section>
 
 
-
-                <section className=" " id="choose">
-                    <div className="container sec-margin">
+                    <section className="container sec-margin" id="choose">
                         <div className="service align-item-center" data-aos="fade-up">
                             <h2 className="section-head">Why Choose Us?</h2>
                             <p className="section-para"></p>
                         </div>
+
                         <div className="row row-cols-1 row-cols-md-3">
-                            <div className="col mb-4" data-aos="fade-up">
-                                <div class="card h-100 service-card">
-                                    <div className="service-logo-outer">
-
-                                        <div className="service-logo">
-                                            <i className="fa-solid fa-network-wired"></i>
-                                        </div>
-                                    </div>
-
-                                    <div className="card-body">
-                                        <h5 className="card-title align-item-center">Wide Network</h5>
-                                        <p className="card-text">Access to a pool of talent across 200+ technologies
+                            <Square head="Wide Network" para="Access to a pool of talent across 200+ technologies
                                             ensures that we meet
-                                            business needs swiftly and efficiently.
-
-                                        </p>
-
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col mb-4" data-aos="fade-up">
-                                <div className="card h-100 service-card">
-                                    <div className="service-logo-outer">
-
-                                        <div className="service-logo">
-                                            <i className="fa-solid fa-building"></i>
-                                        </div>
-                                    </div>
-                                    <div className="card-body">
-                                        <h5 className="card-title align-item-center">Proven Experience
-                                        </h5>
-                                        <p className="card-text"> With over 5+ years in the industry, we’ve partnered
+                                            business needs swiftly and efficiently."
+                                icon="fa-solid fa-network-wired" />
+                            <Square head="Proven Experience" para=" With over 5+ years in the industry, we’ve partnered
                                             with 125+
-                                            clients, supporting 1100+ employees in their career journeys.</p>
-
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col mb-4" data-aos="fade-up">
-                                <div className="card h-100 service-card">
-                                    <div className="service-logo-outer">
-
-                                        <div className="service-logo">
-                                            <i className="fa-solid fa-star"></i>
-                                        </div>
-                                    </div>
-                                    <div className="card-body">
-                                        <h5 className="card-title align-item-center">Tailored Approach</h5>
-                                        <p className="card-text">We understand that every company is unique. Our
+                                            clients, supporting 1100+ employees in their career journeys.."
+                                icon="fa-solid fa-building" />
+                            <Square head="Tailored Approach" para="We understand that every company is unique. Our
                                             recruitment process
-                                            is designed to deliver customized solutions that align with your business goals.</p>
-
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col mb-4" data-aos="fade-up">
-                                <div className="card h-100 service-card">
-                                    <div className="service-logo-outer">
-
-                                        <div className="service-logo">
-                                            <i className="fa-solid fa-computer"></i>
-                                        </div>
-                                    </div>
-                                    <div className="card-body">
-                                        <h5 className="card-title align-item-center">Real-Time IT Project Development</h5>
-                                        <p className="card-text">TechCombo specializes in real-time project delivery. From
+                                            is designed to deliver customized solutions that align with your business goals."
+                                icon="fa-solid fa-star" />
+                            <Square head="Real-Time IT Project Development" para="TechCombo specializes in real-time project delivery. From
                                             software development to system integration and IT infrastructure management, we
-                                            provide agile solutions designed to meet evolving business demands.</p>
-
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div className="col mb-4" data-aos="fade-up">
-                                <div className="card h-100 service-card">
-                                    <div className="service-logo-outer">
-
-                                        <div className="service-logo">
-                                            <i className="fa-solid fa-users-line"></i>
-                                        </div>
-                                    </div>
-                                    <div className="card-body">
-                                        <h5 className="card-title align-item-center">Scalable Staffing Models</h5>
-                                        <p className="card-text">We understand that businesses need flexibility. Whether you require
+                                            provide agile solutions designed to meet evolving business demands."
+                                icon="fa-solid fa-computer" />
+                            <Square head="Scalable Staffing Models" para="We understand that businesses need flexibility. Whether you require
                                             temporary staff, contract workers, or a permanent team, our solutions are designed
-                                            to scale with your needs, minimizing overheads and ensuring operational efficiency.
-                                        </p>
-
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col mb-4" data-aos="fade-up">
-                                <div className="card h-100 service-card">
-                                    <div className="service-logo-outer">
-
-                                        <div className="service-logo">
-                                            <i className="fa-solid fa-hand-holding-heart"></i>
-                                        </div>
-                                    </div>
-                                    <div className="card-body">
-                                        <h5 className="card-title align-item-center">Focus on Quality and Compliance</h5>
-                                        <p className="card-text">Our strict screening processes and focus on regulatory compliance
+                                            to scale with your needs, minimizing overheads and ensuring operational efficiency."
+                                icon="fa-solid fa-users-line" />
+                            <Square head="Focus on Quality and Compliance" para="Our strict screening processes and focus on regulatory compliance
                                             guarantee that you receive qualified talent with minimal risks. From payroll
                                             compliance to legal documentation, we ensure that your workforce management is
-                                            seamless and hassle-free.</p>
-
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col mb-4" data-aos="fade-up">
-                                <div className="card h-100 service-card">
-                                    <div className="service-logo-outer">
-
-                                        <div className="service-logo">
-                                            <i className="fa-solid fa-people-group"></i>
-                                        </div>
-                                    </div>
-                                    <div className="card-body">
-                                        <h5 className="card-title align-item-center">Empowering Professionals</h5>
-                                        <p className="card-text">We offer exciting career opportunities across industries.
+                                            seamless and hassle-free."
+                                icon="fa-solid fa-hand-holding-heart" />
+                            <Square head="Empowering Professionals" para="We offer exciting career opportunities across industries.
                                             Professionals can choose from freelance, contract, or full-time roles, enabling them
-                                            to explore diverse projects and grow their expertise in their chosen fields.</p>
-
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col mb-4" data-aos="fade-up">
-                                <div className="card h-100 service-card">
-                                    <div className="service-logo-outer">
-
-                                        <div className="service-logo">
-                                            <i className="fa-solid fa-people-roof"></i>
-                                        </div>
-                                    </div>
-                                    <div className="card-body">
-                                        <h5 className="card-title align-item-center">A People-First Approach</h5>
-                                        <p className="card-text">At TechCombo, we believe in building long-term relationships. Our
+                                            to explore diverse projects and grow their expertise in their chosen fields."
+                                icon="fa-solid fa-people-group" />
+                            <Square head="People-First Approach" para="At TechCombo, we believe in building long-term relationships. Our
                                             approach is centered on understanding the unique needs of every client and employee,
-                                            creating partnerships that drive mutual success and growth.</p>
-
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col mb-4" data-aos="fade-up">
-                                <div className="card h-100 service-card">
-                                    <div className="service-logo-outer">
-
-                                        <div className="service-logo">
-                                            <i className="fa-solid fa-medal"></i>
-                                        </div>
-                                    </div>
-                                    <div className="card-body">
-                                        <h5 className="card-title align-item-center">Trusted by Top Companies</h5>
-                                        <p className="card-text">Our clients trust us because of our dedicated support, efficient
+                                            creating partnerships that drive mutual success and growth."
+                                icon="fa-solid fa-people-roof" />
+                            <Square head="Trusted by Top Companies" para="Our clients trust us because of our dedicated support, efficient
                                             staffing processes, and customized solutions. We help businesses stay focused on
                                             their core operations, while we manage their workforce and deliver projects
-                                            seamlessly.
-
-                                        </p>
-
-                                    </div>
-                                </div>
-                            </div>
-
+                                            seamlessly."
+                                icon="fa-solid fa-medal" />
 
                         </div>
-                    </div>
                 </section>
 
 
