@@ -34,7 +34,7 @@ const Journey = () => {
             0: {
               slidesPerView: 1,
             },
-            300: {
+            470: {
               slidesPerView: 2,
             },
             894: {
