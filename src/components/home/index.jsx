@@ -7,6 +7,8 @@ import ContactForm from "../formContact"
 import {Link} from "react-router-dom";
 import Number from "../animatedNum";
 import HomeService from "../homeservice/index.jsx";
+
+
 const Home = () => {
 
 
@@ -17,8 +19,8 @@ const Home = () => {
 
             <section className="sec-margin " id="first">
                 <div className=" container top-ind flex-1">
-                    <div className=" left pd-1">
-                        <div className="upper-cont">
+                    <div className=" left pd-1"  data-aos="fade-up">
+                        <div className="upper-cont" >
                             <div className="head-about">
                                 <h1 className="head">Empowering Talent, Enabling Growth</h1>
                             </div>
@@ -51,7 +53,12 @@ const Home = () => {
 
                     <div className=" right pd-1 hero-c">
 
-                        <div className="heroBox">
+
+                    <video autoplay="" muted loop playsinline width="100%" height="100%">
+                            <source src="/video/w.mp4" type="video/mp4" />
+                        </video>
+
+                        {/* <div className="heroBox">
 
                         </div>
                         <div style={{maxWidth: 500}} id="carouselExampleControls" className="carousel slide "
@@ -79,7 +86,7 @@ const Home = () => {
                                 <span className="carousel-control-next-icon" aria-hidden="true"></span>
                                 <span className="sr-only">Next</span>
                             </Link>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </section>

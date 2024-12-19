@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wdth,wght@0,62.5..100,100..900;1,62.5..100,100..900&display=swap');
 .flex-1 {
     display: flex;
     align-items: center;
@@ -64,7 +64,7 @@
 .heroBox{
     height:340px;
     width: 500px;
-    background: linear-gradient(135deg, #0077b5, #15B392);
+    /* background: linear-gradient(135deg, #0077b5, #15B392); */
     position: absolute;
     top:-10px;
     left:20px;
@@ -197,6 +197,11 @@
 
 }
 
+
+.bg-c{
+    background: linear-gradient(180deg, #bff5d7, #fff);
+}
+
 /* Achived Section */
 
 .achieved-section {
@@ -208,7 +213,7 @@
 }
 
 .achieved-heading h3 {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Noto Sans", serif;
     font-weight: 700;
     font-size: 36px;
     color: #fff;
@@ -252,6 +257,7 @@
 }
 
 .circle h2 {
+    font-family: "Noto Sans", serif;
     font-weight: 700;
     margin: 0;
     display: flex;
@@ -259,7 +265,7 @@
 }
 
 .success-head h4 {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Noto Sans", serif;
     font-weight: 600;
     color: #fff;
     margin-top: 10px;

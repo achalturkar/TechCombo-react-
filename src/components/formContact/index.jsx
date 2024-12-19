@@ -9,7 +9,7 @@ const ContactForm = () =>{
     return(
 
 
-        <section className=" ">
+        <section className="bg-c ">
             <div className="container contact sec-margin">
                 <div className=" align-item-center" data-aos="fade-up">
                     <h2 className="section-head">Our Contact</h2>
@@ -52,8 +52,8 @@ const ContactForm = () =>{
                     </div>
 
 
-                    <div className="box" data-aos="fade-up">
-                        <div className="circle-container cont-box down-contact-detail">
+                    <div className="box" data-aos="fade-up" >
+                        <div className="circle-container cont-box down-contact-detail" >
                             <div className="cont-icon">
                                 <i className="fas fa-map-marker-alt"></i>
                             </div>
