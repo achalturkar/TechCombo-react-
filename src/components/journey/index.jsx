@@ -32,6 +32,9 @@ const Journey = () => {
         // slidesPerView={3}
         breakpoints={{
             0: {
+              slidesPerView: 1,
+            },
+            300: {
               slidesPerView: 2,
             },
             894: {
