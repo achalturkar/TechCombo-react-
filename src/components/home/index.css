@@ -57,21 +57,6 @@
     width: 100%;
 }
 
-.hero-c{
-    position: relative;
-}
-
-.heroBox{
-    height:340px;
-    width: 500px;
-    /* background: linear-gradient(135deg, #0077b5, #15B392); */
-    position: absolute;
-    top:-10px;
-    left:20px;
-    border-radius: 20px;
-
-}
-
 .circle {
     border-radius: 50%;
     color: black;
@@ -79,9 +64,6 @@
     z-index: 1;
 }
 
-.my-img img {
-    border-radius: 20px;
-}
 
 .section-head {
     position: relative;
@@ -118,7 +100,8 @@
     display: inline-block;
     padding: 8px 18px;
     color: white;
-    background-color: #d00052;
+    /* background-color: #d00052; */
+    background-color: #191919;
     border-radius: 20px;
     font-family: "Poppins", sans-serif; 
     font-weight: 400;
@@ -208,6 +191,7 @@
     height: 100%;
     width: 100%;
     background: linear-gradient(135deg, #0077b5, #15B392);
+
     padding: 50px 20px;
     text-align: center;
 }

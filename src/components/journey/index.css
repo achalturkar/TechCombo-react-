@@ -1,0 +1,72 @@
+
+  /* Card Styles */
+  .journey-card {
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+  }
+  
+  .journey-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .journey-img {
+    width: 100%;
+    min-height: 300px;
+    object-fit: cover;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .journey-img img{
+    width: 100%;
+    height: auto;
+    margin: 10px;
+    /* border-radius: 50%; */
+    object-fit: cover;
+
+
+  }
+  
+  .journey-content {
+    padding: 15px;
+    height: 50%;
+
+  }
+  
+  .journey-year {
+    font-size: 22px;
+    font-weight: bold;
+    font-family: "Poppins";
+    color: #0073e6;
+    text-align: center;
+  }
+  
+  .journey-text {
+    font-size: 18px;
+    color: #080808;
+    font-family: "noto-sans";
+  }
+  
+ 
+  /* Pagination Dots */
+  .swiper-pagination-bullet {
+    background-color: #0073e6;
+    opacity: 0.7;
+  }
+  
+  .swiper-pagination-bullet-active {
+    background-color: #005bb5;
+    opacity: 1;
+  }
+
+
+  

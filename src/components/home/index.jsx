@@ -4,9 +4,10 @@ import "./index.css"
 import Footer from "../footer/footer.jsx";
 import Map from "../map"
 import ContactForm from "../formContact"
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 import Number from "../animatedNum";
 import HomeService from "../homeservice/index.jsx";
+import Journey from "../journey/index.jsx";
 
 
 const Home = () => {
@@ -19,7 +20,7 @@ const Home = () => {
 
             <section className="sec-margin " id="first">
                 <div className=" container top-ind flex-1">
-                    <div className=" left pd-1"  data-aos="fade-up">
+                    <div className=" left pd-1" data-aos="fade-up">
                         <div className="upper-cont" >
                             <div className="head-about">
                                 <h1 className="head">Empowering Talent, Enabling Growth</h1>
@@ -53,47 +54,17 @@ const Home = () => {
 
                     <div className=" right pd-1 hero-c">
 
-
-                    <video autoplay="" muted loop playsinline width="100%" height="100%">
+                        <video autoplay="" muted loop playsinline width="100%" height="100%">
                             <source src="/video/w.mp4" type="video/mp4" />
                         </video>
 
-                        {/* <div className="heroBox">
-
-                        </div>
-                        <div style={{maxWidth: 500}} id="carouselExampleControls" className="carousel slide "
-                            data-ride="carousel">
-
-                            <div className="carousel-inner">
-                                <div className="carousel-item active my-img">
-                                    <img src="/images/ithero1.jpg" className="d-block w-100" alt="..." />
-                                </div>
-                                <div className="carousel-item my-img">
-                                    <img src="/images/ithero.jpg" className="d-block w-100" alt="..." />
-                                </div>
-                                <div className="carousel-item my-img">
-                                    <img src="/images/ithero2.jpg" className="d-block w-100" alt="..." />
-                                </div>
-                            </div>
-
-                            <Link className="carousel-control-prev" to="#carouselExampleControls" role="button"
-                                data-slide="prev">
-                                <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span className="sr-only">Previous</span>
-                            </Link>
-                            <Link className="carousel-control-next" to="#carouselExampleControls" role="button"
-                                data-slide="next">
-                                <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span className="sr-only">Next</span>
-                            </Link>
-                        </div> */}
                     </div>
                 </div>
             </section>
 
 
 
-            <section className="achieved-section"   data-aos="fade-up">
+            <section className="achieved-section" data-aos="fade-up">
                 <div className=" achieved-heading align-item-center">
                     <h3>"Achievements That Define Us"
                     </h3>
@@ -136,8 +107,9 @@ const Home = () => {
 
             <HomeService />
 
+            <Journey />
+
             <ContactForm />
-            <Map />
             <Footer />
 
         </>
