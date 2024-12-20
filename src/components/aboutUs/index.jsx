@@ -150,10 +150,10 @@ const About = () => {
                 </section>
 
 
-                <button class="mode-button" id="mode"><i class="fa-solid fa-toggle-on"></i></button>
+                <button className="mode-button" id="mode"><i className="fa-solid fa-toggle-on"></i></button>
 
-                <a href="#" class="back-to-top" id="backToTop">
-                    <i class="fa-solid fa-plane-up"></i>
+                <a href="#" className="back-to-top" id="backToTop">
+                    <i className="fa-solid fa-plane-up"></i>
                 </a>
 
 

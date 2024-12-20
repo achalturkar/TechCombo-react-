@@ -4,6 +4,7 @@ import Header from "../header";
 import Footer from "../footer/footer.jsx";
 import Map from "../map"
 import {Link} from "react-router-dom";
+import Social from "../social/index.jsx";
 
 
 
@@ -71,12 +72,8 @@ const Contact = () => {
               <div className="contact-ways">
                 Follow Us
               </div>
-              <div className="social-icon">
-                <Link to="#" target="_blank"><i class="fab fa-facebook-f"></i></Link>
-                <Link to="#" target="_blank"><i class="fab fa-twitter"></i></Link>
-                <Link to="https://www.linkedin.com/groups/10462070/?highlightedUpdateUrn=urn%3Ali%3AgroupPost%3A10462070-7247050478386089984&q=highlightedFeedForGroups"
-                  target="_blank"><i class="fab fa-linkedin-in"></i></Link>
-                <Link to="#" target="_blank"><i class="fab fa-instagram"></i></Link>
+              <div >
+               <Social/>
               </div>
             </div>
 

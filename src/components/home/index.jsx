@@ -8,6 +8,7 @@ import { Link } from "react-router-dom";
 import Number from "../animatedNum";
 import HomeService from "../homeservice/index.jsx";
 import Journey from "../journey/index.jsx";
+import Social from "../social/index.jsx";
 
 
 const Home = () => {
@@ -37,18 +38,13 @@ const Home = () => {
                             </div>
                         </div>
                         <br />
-                        <div className="cont-link align-item-center">
+                        <div className="gap-8 flex flex-row items-center ">
                             <div className="touch ">
                                 <Link className="button-read" to="/contact">Get In Touch <i className="fa-solid fa-circle-arrow-right"></i></Link>
 
                             </div>
-                            <div className="social-icon ">
-                                <Link to="#" target="_blank"><i className="fab fa-facebook-f"></i></Link>
-                                <Link to="#" target="_blank"><i className="fab fa-twitter"></i></Link>
-                                <Link to="https://www.linkedin.com/groups/10462070/?highlightedUpdateUrn=urn%3Ali%3AgroupPost%3A10462070-7247050478386089984&q=highlightedFeedForGroups"
-                                    target="_blank"><i className="fab fa-linkedin-in"></i></Link>
-                                <Link to="#" target="_blank"><i className="fab fa-instagram"></i></Link>
-                            </div>
+                            <div> <Social /></div>
+                           
                         </div>
                     </div>
 

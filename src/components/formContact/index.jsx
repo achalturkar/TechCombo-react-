@@ -1,5 +1,6 @@
 
 import "./index.css"
+import Social from "../social/index.jsx";
 
 
 
@@ -80,12 +81,8 @@ const ContactForm = () =>{
                                 <div className="contact-ways">
                                     Follow us
                                 </div>
-                                <div className="social-icon">
-                                    <a to="#" target="_blank"><i className="fab fa-facebook-f"></i></a>
-                                    <a to="#" target="_blank"><i className="fab fa-twitter"></i></a>
-                                    <a to="https://www.linkedin.com/groups/10462070/?highlightedUpdateUrn=urn%3Ali%3AgroupPost%3A10462070-7247050478386089984&q=highlightedFeedForGroups"
-                                        target="_blank"><i className="fab fa-linkedin-in"></i></a>
-                                    <a to="#" target="_blank"><i className="fab fa-instagram"></i></a>
+                                <div >
+                                   <Social />
                                 </div>
                             </div>
                         </div>
@@ -98,23 +95,23 @@ const ContactForm = () =>{
                     <form className=" container ">
                         <div className="form-row">
                             <div className="col-md-6 mb-3">
-                                <label for="validationDefault01">First Name</label>
+                                <label htmlFor="validationDefault01">First Name</label>
                                 <input type="text" className="form-control" id="validationDefault01" value="" required/>
                             </div>
                             <div className="col-md-6 mb-3">
-                                <label for="validationDefault02">Last Name</label>
+                                <label htmlFor="validationDefault02">Last Name</label>
                                 <input type="text" className="form-control" id="validationDefault02" value="" required/>
                             </div>
                             <div className="col-md-6 mb-3">
-                                <label for="validationDefault02">Email</label>
+                                <label htmlFor="validationDefault02">Email</label>
                                 <input type="email" className="form-control" id="validationDefault02" value="" required/>
                             </div>
                             <div className="col-md-6 mb-3">
-                                <label for="validationDefault02">Mobile Number</label>
+                                <label htmlFor="validationDefault02">Mobile Number</label>
                                 <input type="text" className="form-control" id="validationDefault02" value="" required/>
                             </div>
                             <div className="col-12 mb-4 ">
-                                <label for="validationDefault02">Add Message</label>
+                                <label htmlFor="validationDefault02">Add Message</label>
                                 <textarea className="form-control" id="validationDefault02" value="" required> </textarea>
                             </div>
                             <div className=" buton">

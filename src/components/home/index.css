@@ -51,11 +51,7 @@
     max-width: 900px;
 }
 
-.cont-link {
-    display: flex;
-    gap: 30px;
-    width: 100%;
-}
+
 
 .circle {
     border-radius: 50%;
