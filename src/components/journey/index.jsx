@@ -22,7 +22,7 @@ const Journey = () => {
 
         <section className="sec-margin container ">
               <div className=" align-item-center" data-aos="fade-up">
-                    <h2 className="section-head">Our Journey</h2>
+                    <h2 className="section-head text-4xl font-bold">Our Journey</h2>
                     <p className="section-para"></p>
                 </div>
 

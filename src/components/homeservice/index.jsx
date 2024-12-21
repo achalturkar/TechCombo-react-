@@ -11,7 +11,7 @@ const HomeService =() =>{
 
             <section className="container sec-margin" id="services">
                 <div className="service align-item-center"  data-aos="fade-up">
-                    <h2 className="section-head">Our Services</h2>
+                    <h2 className="section-head text-4xl font-bold">Our Services</h2>
                     <p className="section-para"></p>
                 </div>
 

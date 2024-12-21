@@ -102,7 +102,7 @@ const About = () => {
 
                     <section className="container sec-margin" id="choose">
                         <div className="service align-item-center" data-aos="fade-up">
-                            <h2 className="section-head">Why Choose Us?</h2>
+                            <h2 className="section-head text-4xl font-bold">Why Choose Us?</h2>
                             <p className="section-para"></p>
                         </div>
 

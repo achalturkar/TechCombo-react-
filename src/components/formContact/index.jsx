@@ -13,7 +13,7 @@ const ContactForm = () =>{
         <section className="bg-c ">
             <div className="container contact sec-margin">
                 <div className=" align-item-center" data-aos="fade-up">
-                    <h2 className="section-head">Our Contact</h2>
+                    <h2 className="section-head text-4xl font-bold">Our Contact</h2>
                     <p className="section-para"></p>
                 </div>
 
