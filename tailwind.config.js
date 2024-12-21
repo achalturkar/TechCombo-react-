@@ -7,6 +7,11 @@ export default {
 
       backgroundImage: {
         // 'hero-pattern': "linear-gradient(rgba(0, 0, 0, 0.8), rgba(0,0,0,0.8)),url('/images/world.jpg')",
+      },
+      fontFamily:{
+        poppins : ["Poppins"],
+        noto:["Noto Sans", "serif"]
+
       }
     },
   },

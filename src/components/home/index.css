@@ -70,8 +70,9 @@
     display: inline-block;
     margin: 50px auto;
     text-align: center;
-    font-family: sans-serif;
+    font-family: "Poppins";
     font-weight: 800;
+    font-size: 36px;
     width: max-content;
     z-index: 1;
 }
@@ -93,7 +94,9 @@
     left: 0;
     z-index: 1;
     transition: 100ms;
-}
+    word-wrap: break-word;
+
+} 
 
 
 .button-read {
@@ -166,6 +169,7 @@
 
     .section-head {
         margin: 30px auto;
+        font-size: 28px;
        
     }
 

@@ -7,12 +7,6 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/thumbs";
 
-// interface PlanData {
-//   icon: JSX.Element;
-//   title: string;
-//   img: string;
-//   desc: string;
-// }
 
 const FuturePlan = () => {
     const [thumbsSwiper, setThumbsSwiper] = useState(null);
@@ -53,14 +47,13 @@ const FuturePlan = () => {
         <section className="sec-margin ">
             <div className="align-item-center text-center mb-8" data-aos="fade-up">
                 <h2 className="section-head text-4xl font-bold">What Drives Us?</h2>
-                <p className="section-para text-lg text-gray-600">
+                <p className="section-para text-xl font-medium text-gray-600 font-noto">
                 "Learn About the Principles Driving Our Commitment to Excellence"
-
                 </p>
             </div>
 
-            <div className="container flex flex-col-reverse  gap-8">
-                <div className="">
+            <div className="container flex flex-col-reverse  gap-8 " data-aos="fade-up">
+                <div className="mt-4">
                     <Swiper
                         spaceBetween={10}
                         thumbs={{ swiper: thumbsSwiper }}

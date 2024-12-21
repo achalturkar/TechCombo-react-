@@ -10,6 +10,7 @@ import HomeService from "../homeservice/index.jsx";
 import Journey from "../journey/index.jsx";
 import Social from "../social/index.jsx";
 import FuturePlan from "../futurePlan/index.jsx";
+import Industry from "../industry/index.jsx";
 
 
 const Home = () => {
@@ -107,6 +108,8 @@ const Home = () => {
             <Journey />
 
             <FuturePlan/>
+
+            <Industry />
 
             <ContactForm />
             <Footer />
