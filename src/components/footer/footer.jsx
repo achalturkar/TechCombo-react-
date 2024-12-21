@@ -70,7 +70,7 @@ const Footer = () => {
         //     </div>
         // </footer>
 
-        <footer className="bg-white text-black pt-8 border-t">
+        <footer className="bg-gray-50 text-black pt-8 border-t">
             <div className="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-4">
                 <div className="flex flex-col items-center md:items-start">
                     <img
@@ -122,7 +122,7 @@ const Footer = () => {
 
             </div>
 
-            <div className="bg-current	">
+            <div className="bg-current	mt-2">
                 <p className="text-white text-center ">&copy; 2024 TechCombo. All rights reserved.</p>
             </div>
         </footer>

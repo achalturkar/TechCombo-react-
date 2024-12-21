@@ -9,6 +9,7 @@ import Number from "../animatedNum";
 import HomeService from "../homeservice/index.jsx";
 import Journey from "../journey/index.jsx";
 import Social from "../social/index.jsx";
+import FuturePlan from "../futurePlan/index.jsx";
 
 
 const Home = () => {
@@ -104,6 +105,8 @@ const Home = () => {
             <HomeService />
 
             <Journey />
+
+            <FuturePlan/>
 
             <ContactForm />
             <Footer />

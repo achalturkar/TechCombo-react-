@@ -18,7 +18,7 @@ const Square = ({head, para, icon:Icon, link}) => {
                 <h5 className="card-title align-item-center">{head}
                 </h5>
                 <p className="card-text">{para}</p>
-                { link && (<Link className="button-read" to={link}>Read More</Link>)}
+                { link && (<Link className="button-read mt2" to={link}>Read More</Link>)}
             </div>
         </div>
     </div>
